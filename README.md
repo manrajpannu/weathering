@@ -2,8 +2,8 @@
 A simple, open source weather app. [Demo Link](https://weather.manrajpannu.tech)
 
 ## Screenshots
-![phone](https://github.com/manrajpannu/weatheringwithyou/blob/gh-pages/scr2.png)
-![website](https://github.com/manrajpannu/weatheringwithyou/blob/gh-pages/scr1.png)
+![phone](https://github.com/manrajpannu/weatheringwithyou/blob/gh-pages/weather.png)
+![website](https://github.com/manrajpannu/weatheringwithyou/blob/gh-pages/weather2.png)
 
 ## Features:
 * Automatically detect location.
