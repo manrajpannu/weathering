@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<title>Weathering</title>
+</head>
+
+<body id="bodybox" class="">
+
+	<div id="main-container" class="container">
+			<h1 id="city" class="text-center">city</h1>
+			<p id="province" class="text-center">province</p>
+		<div id="current-weather" class="container">
+			<div class="row">
+				<div class="col-xs-5 valign" align="center">
+					<br>
+					<canvas id="weather-icon" width="75" height="75"></canvas>
+				</div><!--
+				--><div class="col-xs-5 valign" align="right">
+					<h1 id="temp">°</h1>
+				</div><!--
+				--><div class="col-xs-2 valign" align="center">
+				<br>
+					<a id="fbutton" class="button" title="Change degrees to fahrenheit" target="_blank"><p>F</p></a>
+					<a id="cbutton" class="button" title="Change degrees to celsius" target="_blank"><p>C</p></a>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-xs-5">
+					<h1 id="weather-description">Summary</h1>
+				</div>
+				<div class="col-xs-7">
+					<h1 id="feels-like">Feels Like</h1>
+				</div>
+			</div>
+		</div>
+		<hr class="style1">
+
+		<div id="forecast" class="container">
+			<div class="row">
+				<div class="col-xs-4 text-center">
+					<p id="daytwo">2</p>
+					<canvas id="icondaytwo" width="45" height="45"></canvas>
+
+					<p id="daytwo-hl">High/Low</p>
+					<i id="daytwo-r" class="wi wi-raindrop"></i>
+					<p id="daytwo-p">Precipitation</p>
+				</div>
+				<div class="col-xs-4 text-center">
+					<p id="daythree">3</p>
+					<canvas id="icondaythree" width="45" height="45"></canvas>
+					<p id="daythree-hl">High/Low</p>
+					<i id="daythree-r" class="wi wi-raindrop"></i>
+					<p id="daythree-p">Precipitation</p>
+				</div>
+				<div class="col-xs-4 text-center">
+					<p id="dayfour">4</p>
+					<canvas id="icondayfour" width="45" height="45"></canvas>
+					<p id="dayfour-hl">High/Low</p>
+					<i id="dayfour-r" class="wi wi-raindrop"></i>
+					<p id="dayfour-p">Precipitation</p>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div id="forecast2" class="container">
+			<div>
+					<li style='float: left'>
+						<i style='font-size: 20px;'id="wi-strong-wind" class="wi wi-strong-wind"></i>
+						<a  id='windspeed' ></a>
+					</li>
+					<li align="right">
+						<i style='font-size: 20px;'id="wi-raindrops" class="wi wi-raindrops"></i>
+						<a  id='chanceRain' ></a>
+					</li>
+
+			</div>
+		</div>		
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="https://rawgit.com/maxdow/skycons/master/skycons.js"></script>
+	<script src="script.js"></script>
+	<script  src="change_background.js"></script>
+	
+</body>
+
+<footer>
+  <p class="center">Created by <a href="https://github.com/manrajpannu">Manraj Pannu</a> with lots of <i class="fas fa fa-coffee"></i></p>
+</footer>
