@@ -52,7 +52,7 @@ $(document).ready(function getWeather() {
 
 			//skycons
 			var icon = weatherdata.currently.icon;
-			var skycons = new Skycons({"monochrome": false});
+			var skycons = new Skycons({"color": "#FFFFFF"});
 			skycons.set("weather-icon", icon);
 			skycons.play();
 
@@ -72,6 +72,7 @@ $(document).ready(function getWeather() {
 				day = weekday[date.getDay()];
 				dayArray.push(day);
 				var weatherIcon = weatherdata.daily.data[i].icon;
+				
 				iconArray.push(weatherIcon);
 				var tempMax = weatherdata.daily.data[i].temperatureMax;
 				tempMaxArray.push(tempMax);
@@ -98,9 +99,10 @@ $(document).ready(function getWeather() {
 			$("#daythree").html(dayArray[1]);
 			$("#dayfour").html(dayArray[2]);
 			//put icons into html
-			skycons.set("#icondaytwo", iconArray[0]);
-			skycons.set("#icondaythree", iconArray[1]);
-			skycons.set("#icondayfour", iconArray[2]);
+			console.log(iconArray)
+			skycons.set("weathertwo", iconArray[0]);
+			skycons.set("weatherthree", iconArray[1]);
+			skycons.set("weatherfour", iconArray[2]);
 			//put highs and lows into html
 			$("#daytwo-hl").html(Math.round(tempMaxArray[0]) + "/" + Math.round(tempMinArray[0])+"°F");
 			$("#daythree-hl").html(Math.round(tempMaxArray[1]) + "/" + Math.round(tempMinArray[1])+"°F");
