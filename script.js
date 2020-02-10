@@ -48,7 +48,6 @@ $(document).ready(function getWeather() {
 			var windspeed = weatherdata.currently.windSpeed;
 			$("#windspeed").html(windspeed+' <small>m/s</small>');
 			var chanceRain = weatherdata.currently.precipProbability;
-			((precipArray[0]*10)/10) + "%")
 			$("#chanceRain").html(Math.round(chanceRain*100)+' <small>%</small>');
 
 			//skycons
