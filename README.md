@@ -9,10 +9,11 @@ A simple, open source weather app. [Demo Link](https://weather.manrajpannu.tech)
 * Skycon procedurally generated icons.
 
 ## Built with: 
-*HTML, CSS, Bootstrap 
-*JavaScript
-*JQuery
-*[OpenCage Geocoding](https://opencagedata.com/api), [Dark Sky Forecast API](https://developer.forecast.io/).
+* HTML, CSS, Bootstrap 
+* JavaScript
+* JQuery
+* [OpenCage Geocoding](https://opencagedata.com/api) 
+* [Dark Sky Forecast API](https://developer.forecast.io/).
 
 
 
