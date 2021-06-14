@@ -1,5 +1,5 @@
 # Weathering
-A simple, open source weather app. [Demo Link](https://weather.manrajpannu.tech)
+A simple, open source weather app. [Demo Link](https://weather.manraj.tech)
 
 ## Screenshots
 ![phone](https://github.com/manrajpannu/weatheringwithyou/blob/gh-pages/weather.png)
