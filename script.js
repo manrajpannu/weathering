@@ -15,7 +15,7 @@ $(document).ready(function getWeather() {
 	function success(position) {
 		lat = position.coords.latitude;
 		lon = position.coords.longitude;
-		var key = '25f02275e13d469fb4f9a4205acbdd66';
+		var key = 'abfbfb65c4154b418fdbf88e5caaaa4e';
 		
 		var reversegeocodingapi = "https://api.opencagedata.com/geocode/v1/json?q="+lat+"%2C%20"+lon+"&key="+key+"&language=en&pretty=1";
 		$.getJSON(reversegeocodingapi, function(data) {
